@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("z_input.text", "r")
+sys.stdin = open("../z_input.text", "r")
 
 def input_():
     return sys.stdin.readline().rstrip()

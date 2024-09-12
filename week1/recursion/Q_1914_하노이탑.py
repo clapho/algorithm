@@ -6,7 +6,6 @@ sys.stdin = open("../z_input.text", "r")
 def input_():
     return sys.stdin.readline().rstrip()
 
-
 # 총 이동 횟수를 기록하는 변수
 move_count = 0
 
