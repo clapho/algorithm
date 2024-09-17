@@ -24,5 +24,3 @@ for i in range(N):
 search(0, 0, 0, 0)
 
 print(answer)
-
-
