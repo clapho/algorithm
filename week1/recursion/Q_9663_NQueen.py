@@ -6,7 +6,7 @@ def input_():
     return sys.stdin.readline().rstrip()
 
 def dfs(n):
-    global ans
+    global max_ans
     if n == N:
         ans += 1
         return
@@ -18,9 +18,9 @@ def dfs(n):
             v1[j] = v2[n + j] = v3[n - j] = 0
 
 N = int(input())
-ans = 0
+max_ans = 0
 v1 = [0] * N
 v2 = [0] * (2 * N)
 v3 = [0] * (2 * N)
 dfs(0)
-print(ans)
+print(max_ans)
